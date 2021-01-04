@@ -1,0 +1,1706 @@
+object Form1: TForm1
+  Left = 377
+  Height = 585
+  Top = 125
+  Width = 1017
+  AutoSize = True
+  BorderStyle = bsDialog
+  BorderWidth = 5
+  Caption = 'Двунаправленная ассоциативная память (Нейрокомпьютерные технологии, Ионисян А.С.)'
+  ClientHeight = 585
+  ClientWidth = 1017
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '2.0.10.0'
+  object GB_Layer1: TGroupBox
+    Left = 344
+    Height = 569
+    Top = 8
+    Width = 336
+    Caption = 'Нейроны слоя 1'
+    ClientHeight = 552
+    ClientWidth = 334
+    ParentFont = False
+    TabOrder = 2
+    object Panel_neuron5: TPanel
+      Left = 264
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 0
+      object PB_w_105: TPaintBox
+        Tag = 105
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_105: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 5'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron4: TPanel
+      Left = 200
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 1
+      object PB_w_104: TPaintBox
+        Tag = 104
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_104: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 4'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron3: TPanel
+      Left = 136
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 2
+      object PB_w_103: TPaintBox
+        Tag = 103
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_103: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 3'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron2: TPanel
+      Left = 72
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 3
+      object PB_w_102: TPaintBox
+        Tag = 102
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_102: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 2'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron1: TPanel
+      Left = 3
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 4
+      object PB_w_101: TPaintBox
+        Tag = 101
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_101: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 1'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron6: TPanel
+      Left = 3
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 5
+      object PB_w_106: TPaintBox
+        Tag = 106
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_106: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 6'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron7: TPanel
+      Left = 72
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 6
+      object PB_w_107: TPaintBox
+        Tag = 107
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_107: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 7'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron8: TPanel
+      Left = 136
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 7
+      object PB_w_108: TPaintBox
+        Tag = 108
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_108: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 8'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron9: TPanel
+      Left = 200
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 8
+      object PB_w_109: TPaintBox
+        Tag = 109
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_109: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 9'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron10: TPanel
+      Left = 264
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 9
+      object PB_w_110: TPaintBox
+        Tag = 110
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_110: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 63
+        Caption = 'нейрон10'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron11: TPanel
+      Left = 3
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 10
+      object PB_w_111: TPaintBox
+        Tag = 111
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_111: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 11'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron12: TPanel
+      Left = 72
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 11
+      object PB_w_112: TPaintBox
+        Tag = 112
+        Left = 5
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_112: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 12'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron13: TPanel
+      Left = 136
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 12
+      object PB_w_113: TPaintBox
+        Tag = 113
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_113: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 13'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron14: TPanel
+      Left = 200
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 13
+      object PB_w_114: TPaintBox
+        Tag = 114
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_114: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 14'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron15: TPanel
+      Left = 264
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 14
+      object PB_w_115: TPaintBox
+        Tag = 115
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_115: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 15'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron16: TPanel
+      Left = 3
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 15
+      object PB_w_116: TPaintBox
+        Tag = 116
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_116: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 16'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron17: TPanel
+      Left = 72
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 16
+      object PB_w_117: TPaintBox
+        Tag = 117
+        Left = 5
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_117: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 17'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron18: TPanel
+      Left = 136
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 17
+      object PB_w_118: TPaintBox
+        Tag = 118
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_118: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 18'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron19: TPanel
+      Left = 200
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 18
+      object PB_w_119: TPaintBox
+        Tag = 119
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_119: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 19'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron20: TPanel
+      Left = 264
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 19
+      object PB_w_120: TPaintBox
+        Tag = 120
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_120: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 20'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron21: TPanel
+      Left = 3
+      Height = 105
+      Top = 448
+      Width = 93
+      ClientHeight = 105
+      ClientWidth = 93
+      TabOrder = 20
+      object PB_w_121: TPaintBox
+        Tag = 121
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_121: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 21'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron22: TPanel
+      Left = 72
+      Height = 105
+      Top = 448
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 21
+      object PB_w_122: TPaintBox
+        Tag = 122
+        Left = 5
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_122: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 22'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron23: TPanel
+      Left = 136
+      Height = 105
+      Top = 448
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 22
+      object PB_w_123: TPaintBox
+        Tag = 123
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_123: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 23'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron24: TPanel
+      Left = 200
+      Height = 105
+      Top = 448
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 23
+      object PB_w_124: TPaintBox
+        Tag = 124
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_124: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 24'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron25: TPanel
+      Left = 264
+      Height = 105
+      Top = 448
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 24
+      object PB_w_125: TPaintBox
+        Tag = 125
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_125: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 25'
+        ParentColor = False
+      end
+    end
+  end
+  object Edit_student_name: TEdit
+    Left = 56
+    Height = 29
+    Top = 8
+    Width = 274
+    Font.Height = -15
+    Font.Name = 'Sans'
+    ParentFont = False
+    TabOrder = 0
+    Text = 'Нейрокомпьютерная технология'
+  end
+  object Label_student_name: TLabel
+    Left = 5
+    Height = 19
+    Top = 14
+    Width = 41
+    Caption = 'ФИО'
+    Font.Height = -17
+    Font.Name = 'Sans'
+    ParentColor = False
+    ParentFont = False
+  end
+  object BTN_orig_create: TButton
+    Left = 40
+    Height = 25
+    Top = 552
+    Width = 130
+    Caption = 'Создать эталоны'
+    Font.Height = -13
+    Font.Name = 'Sans'
+    OnClick = BTN_orig_createClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object PB_image_A: TPaintBox
+    Left = 5
+    Height = 192
+    Top = 64
+    Width = 160
+    ParentFont = False
+    OnMouseDown = PB_image_A_MouseDown
+    OnPaint = PB_image_A_Paint
+  end
+  object Label2: TLabel
+    Left = 53
+    Height = 14
+    Top = 48
+    Width = 112
+    Caption = 'Нечеткий образ A'
+    ParentColor = False
+    ParentFont = False
+  end
+  object PB_orig_A1: TPaintBox
+    Tag = 1
+    Left = 5
+    Height = 88
+    Top = 314
+    Width = 80
+    ParentFont = False
+    OnMouseDown = PB_orig_A_MouseDown
+    OnPaint = PB_orig_A_Paint
+  end
+  object BTN_orig_A1_draw: TButton
+    Tag = 1
+    Left = 5
+    Height = 25
+    Top = 408
+    Width = 80
+    Caption = 'в образ A'
+    OnClick = BTN_orig_A_drawClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object PB_orig_A2: TPaintBox
+    Tag = 2
+    Left = 90
+    Height = 88
+    Top = 314
+    Width = 80
+    ParentFont = False
+    OnMouseDown = PB_orig_A_MouseDown
+    OnPaint = PB_orig_A_Paint
+  end
+  object BTN_orig_A2_draw: TButton
+    Tag = 2
+    Left = 90
+    Height = 25
+    Top = 408
+    Width = 80
+    Caption = 'в образ A'
+    OnClick = BTN_orig_A_drawClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object PB_orig_A3: TPaintBox
+    Tag = 3
+    Left = 175
+    Height = 88
+    Top = 314
+    Width = 80
+    ParentFont = False
+    OnMouseDown = PB_orig_A_MouseDown
+    OnPaint = PB_orig_A_Paint
+  end
+  object BTN_orig_A3_draw: TButton
+    Tag = 3
+    Left = 175
+    Height = 25
+    Top = 408
+    Width = 80
+    Caption = 'в образ A'
+    OnClick = BTN_orig_A_drawClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object PB_orig_A4: TPaintBox
+    Tag = 4
+    Left = 260
+    Height = 88
+    Top = 314
+    Width = 80
+    ParentFont = False
+    OnMouseDown = PB_orig_A_MouseDown
+    OnPaint = PB_orig_A_Paint
+  end
+  object BTN_orig_A4_draw: TButton
+    Tag = 4
+    Left = 260
+    Height = 25
+    Top = 408
+    Width = 80
+    Caption = 'в образ A'
+    OnClick = BTN_orig_A_drawClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Label_orig1: TLabel
+    Left = 5
+    Height = 14
+    Top = 296
+    Width = 65
+    Caption = 'Эталон A1'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label_orig_A2: TLabel
+    Left = 90
+    Height = 14
+    Top = 296
+    Width = 65
+    Caption = 'Эталон A2'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label_orig_A3: TLabel
+    Left = 175
+    Height = 14
+    Top = 296
+    Width = 65
+    Caption = 'Эталон A3'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label_orig_A4: TLabel
+    Left = 260
+    Height = 14
+    Top = 296
+    Width = 65
+    Caption = 'Эталон A4'
+    ParentColor = False
+    ParentFont = False
+  end
+  object PB_image_B: TPaintBox
+    Left = 175
+    Height = 192
+    Top = 64
+    Width = 160
+    ParentFont = False
+    OnPaint = PB_image_B_Paint
+  end
+  object Label_Layer3: TLabel
+    Left = 175
+    Height = 14
+    Top = 48
+    Width = 136
+    Caption = 'Ассоциация (образ B)'
+    ParentColor = False
+    ParentFont = False
+  end
+  object BTN_A_reset: TButton
+    Left = 96
+    Height = 25
+    Top = 264
+    Width = 128
+    Caption = 'Сброс образа A'
+    Font.Height = -13
+    Font.Name = 'Sans'
+    OnClick = BTN_A_resetClick
+    ParentFont = False
+    TabOrder = 7
+  end
+  object BTN_W_reset: TButton
+    Left = 5
+    Height = 25
+    Top = 264
+    Width = 80
+    Caption = 'Сброс сети'
+    Font.Height = -13
+    Font.Name = 'Sans'
+    OnClick = BTN_W_resetClick
+    ParentFont = False
+    TabOrder = 8
+  end
+  object BTN_AB_forget: TButton
+    Left = 240
+    Height = 25
+    Top = 264
+    Width = 95
+    Caption = 'Забыть пару'
+    OnClick = BTN_AB_forgetClick
+    TabOrder = 9
+  end
+  object PB_orig_B1: TPaintBox
+    Tag = 1
+    Left = 5
+    Height = 88
+    Top = 458
+    Width = 80
+    ParentFont = False
+    OnMouseDown = PB_orig_B_MouseDown
+    OnPaint = PB_orig_B_Paint
+  end
+  object PB_orig_B2: TPaintBox
+    Tag = 2
+    Left = 90
+    Height = 88
+    Top = 458
+    Width = 80
+    ParentFont = False
+    OnMouseDown = PB_orig_B_MouseDown
+    OnPaint = PB_orig_B_Paint
+  end
+  object PB_orig_B3: TPaintBox
+    Tag = 3
+    Left = 175
+    Height = 88
+    Top = 458
+    Width = 80
+    ParentFont = False
+    OnMouseDown = PB_orig_B_MouseDown
+    OnPaint = PB_orig_B_Paint
+  end
+  object PB_orig_B4: TPaintBox
+    Tag = 4
+    Left = 260
+    Height = 88
+    Top = 458
+    Width = 80
+    ParentFont = False
+    OnMouseDown = PB_orig_B_MouseDown
+    OnPaint = PB_orig_B_Paint
+  end
+  object Label_orig_B1: TLabel
+    Left = 5
+    Height = 14
+    Top = 440
+    Width = 65
+    Caption = 'Эталон B1'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label_orig_B2: TLabel
+    Left = 90
+    Height = 14
+    Top = 440
+    Width = 65
+    Caption = 'Эталон B2'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label_orig_B3: TLabel
+    Left = 175
+    Height = 14
+    Top = 440
+    Width = 65
+    Caption = 'Эталон B3'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label_orig_B4: TLabel
+    Left = 260
+    Height = 14
+    Top = 440
+    Width = 65
+    Caption = 'Эталон B4'
+    ParentColor = False
+    ParentFont = False
+  end
+  object GB_Layer2: TGroupBox
+    Left = 680
+    Height = 569
+    Top = 8
+    Width = 336
+    Caption = 'Нейроны слоя 2'
+    ClientHeight = 552
+    ClientWidth = 334
+    ParentFont = False
+    TabOrder = 10
+    object Panel_neuron_205: TPanel
+      Left = 264
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 0
+      object PB_w_205: TPaintBox
+        Tag = 205
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_205: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 5'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_204: TPanel
+      Left = 200
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 1
+      object PB_w_204: TPaintBox
+        Tag = 204
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_204: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 4'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_203: TPanel
+      Left = 136
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 2
+      object PB_w_203: TPaintBox
+        Tag = 203
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_203: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 3'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_202: TPanel
+      Left = 72
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 3
+      object PB_w_202: TPaintBox
+        Tag = 202
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_202: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 2'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_201: TPanel
+      Left = 3
+      Height = 105
+      Top = 0
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 4
+      object PB_w_201: TPaintBox
+        Tag = 201
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_201: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 1'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_206: TPanel
+      Left = 3
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 5
+      object PB_w_206: TPaintBox
+        Tag = 206
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_206: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 6'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_207: TPanel
+      Left = 72
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 6
+      object PB_w_207: TPaintBox
+        Tag = 207
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_207: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 7'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_208: TPanel
+      Left = 136
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 7
+      object PB_w_208: TPaintBox
+        Tag = 208
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_208: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 8'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_209: TPanel
+      Left = 200
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 8
+      object PB_w_209: TPaintBox
+        Tag = 209
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_209: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 58
+        Caption = 'нейрон 9'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_210: TPanel
+      Left = 264
+      Height = 105
+      Top = 112
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 9
+      object PB_w_210: TPaintBox
+        Tag = 210
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_210: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 63
+        Caption = 'нейрон10'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_211: TPanel
+      Left = 3
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 10
+      object PB_w_211: TPaintBox
+        Tag = 211
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_211: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 11'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_212: TPanel
+      Left = 72
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 11
+      object PB_w_212: TPaintBox
+        Tag = 212
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_212: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 12'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_213: TPanel
+      Left = 136
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 12
+      object PB_w_213: TPaintBox
+        Tag = 213
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_213: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 13'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_214: TPanel
+      Left = 200
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 13
+      object PB_w_214: TPaintBox
+        Tag = 214
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_214: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 14'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_215: TPanel
+      Left = 264
+      Height = 105
+      Top = 224
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 14
+      object PB_w_215: TPaintBox
+        Tag = 215
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_215: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 15'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_216: TPanel
+      Left = 3
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 15
+      object PB_w_216: TPaintBox
+        Tag = 216
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_216: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 16'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_217: TPanel
+      Left = 72
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 16
+      object PB_w_217: TPaintBox
+        Tag = 217
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_217: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 17'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_218: TPanel
+      Left = 136
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 17
+      object PB_w_218: TPaintBox
+        Tag = 218
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_218: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 18'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_219: TPanel
+      Left = 200
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 18
+      object PB_w_219: TPaintBox
+        Tag = 219
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_219: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 19'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_220: TPanel
+      Left = 264
+      Height = 105
+      Top = 336
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 19
+      object PB_w_220: TPaintBox
+        Tag = 220
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_220: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 20'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_221: TPanel
+      Left = 3
+      Height = 105
+      Top = 448
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 20
+      object PB_w_221: TPaintBox
+        Tag = 221
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_221: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 21'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_222: TPanel
+      Left = 72
+      Height = 105
+      Top = 448
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 21
+      object PB_w_222: TPaintBox
+        Tag = 222
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_222: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 22'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_223: TPanel
+      Left = 136
+      Height = 105
+      Top = 448
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 22
+      object PB_w_223: TPaintBox
+        Tag = 223
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_223: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 23'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_224: TPanel
+      Left = 200
+      Height = 105
+      Top = 448
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 23
+      object PB_w_224: TPaintBox
+        Tag = 224
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_224: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 24'
+        ParentColor = False
+      end
+    end
+    object Panel_neuron_225: TPanel
+      Left = 264
+      Height = 105
+      Top = 448
+      Width = 65
+      ClientHeight = 105
+      ClientWidth = 65
+      TabOrder = 24
+      object PB_w_225: TPaintBox
+        Tag = 225
+        Left = 3
+        Height = 85
+        Top = 16
+        Width = 60
+        ParentFont = False
+        OnMouseDown = PB_w_MouseDown
+        OnPaint = PB_w_Paint
+      end
+      object Label_neuron_225: TLabel
+        Left = 1
+        Height = 14
+        Top = 0
+        Width = 66
+        Caption = 'нейрон 25'
+        ParentColor = False
+      end
+    end
+  end
+  object BTN_step: TButton
+    Left = 5
+    Height = 25
+    Top = 37
+    Width = 45
+    Caption = 'Старт'
+    OnClick = BTN_step_Click
+    TabOrder = 11
+  end
+  object BTN_orig_clear: TButton
+    Left = 175
+    Height = 25
+    Top = 552
+    Width = 130
+    Caption = 'Сброс эталонов'
+    Font.Height = -13
+    Font.Name = 'Sans'
+    OnClick = BTN_orig_clearClick
+    ParentFont = False
+    TabOrder = 12
+  end
+end
